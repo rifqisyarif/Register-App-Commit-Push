@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="settings">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/bahasa"
+                    android:title="Bahasa">
+                </item>
+                <item
+                    android:id="@+id/tampilan"
+                    android:title="Tampilan">
+
+                </item>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:title="Log Out">
+
+    </item>
+</menu>
