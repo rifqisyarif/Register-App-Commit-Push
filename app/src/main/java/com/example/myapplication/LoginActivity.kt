@@ -59,7 +59,7 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this, "Logged In", Toast.LENGTH_SHORT).show()
 
             }else
-                progressBar?.visibility = View.VISIBLE
+                progressBar?.visibility = View.GONE
                 Toast.makeText(this, "Akun Salah", Toast.LENGTH_SHORT).show()
 
         }
